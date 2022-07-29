@@ -1,0 +1,81 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.banner{
+    margin-top: 20px;
+}
+.carousel-item{
+    height: 80vh;
+    background-repeat: no-repeat scroll center scroll;
+    background-size: cover;
+}
+.carousel-caption{
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.carousel-control-prev{
+    margin-left: 100px;
+}
+.carousel-control-next{
+    margin-right: 100px;
+}
+.register-section{
+    background-color:rgb(25, 119, 119);
+}
+/* media queries  */
+ /* Tablet devices  */
+ @media screen and (min-width:669px) and (max-width:992px) {
+    .banner{
+        height: 45vh;
+    }
+    .carousel-caption{
+        padding-bottom: 32.5rem;
+    }
+    .carousel-indicators{
+        bottom: 30rem;
+    }
+    .cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .card{
+        max-width:none;
+    }
+        
+}
+/* Mobile phn device  */
+@media screen and (max-width:668px) {
+    .banner{
+        height: 35vh;
+        margin: 0%;
+        padding: 0%;
+    }
+    .carousel-caption{
+        margin-bottom:20px;
+        padding: 0%;
+        height: 70vh;
+    }
+    .carousel-caption h5{
+        font-size:18px;
+    }
+    .carousel-indicators{
+        bottom: 25.5rem;
+    }
+    .course-caption{
+        width: 100%;
+    }
+    .cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .card{
+        max-width:100%;
+    }
+        
+}
